@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Seunghyo Jang | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Seunghyo Jang</h1>
+      <ul>
+        <li>Project <a href="p1.html">Lost & Found</a></li>
+        <li>Project <a href="p2.html">Face Generator</a></li>
+        <li>Project <a href="p3.html">Experimental Clock</a></li>
+        <li>Project <a href="p4.html">Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">Optical Illusion</a></li>
+        <li>Project <a href="p6.html">Data portrait</a></li>
+        <li>Project <a href="p7.html">Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">Experimental Camera</a></li>
+        <li>Project <a href="p9.html">Consentful Interface</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project#2 Face Generator
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/Seunghyo/embed/VWV5WN5vG"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        I drew a scared face character. If you move the mouse out, the face of
+        the character will get bigger and if you put it inside, it will become
+        smaller. As the face grows, the distance between the eyes becomes
+        farther away, and as the face becomes smaller, the gap between the eyes
+        becomes closer. Both cheeks have freckles that continue to wiggle, and
+        the mouth also moves constantly on both sides. By clicking the mouse,
+        you can see that the color of the face continues to change randomly in
+        any sizes.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection & Process
+      </h1>
+
+      <p>
+        My initial plan was to make a face with pixels change as the size changes. But honestly, I got failed because of some restrictions through coding. I made a face with a square on the p5js and changed my plan thinking I should do something else. Since I’m not good at coding yet, I basically made a face using a circle.
+
+After drawing the face in a circular shape, the value of r,g,b was added to the fill. In order to change the face to various random colors, the random values were entered and the ranges of each r, g,  b values were added. I decided to change the color randomly every time I click with my mouse by adding mouseClick.
+
+The eye has a let=map() function to change the spacing of the eye depending on the size of the face. In fact, I am confused about the function and designated value of this code, but I want to know more accurately by continuing to code.
+
+The freckles were placed in each circle and then add random to each ellipse location to wiggle around slightly. After that, I added frameRate adjust the speed of wiggling.
+
+Likewise, the mouth was made to move randomly after giving the square a round shape, specifying a range that could move horizontally. However, the mouth moved only to one side based on the left side, so that it moved to both sides based on the center using rectMode (CENTER).
+      </p>
+
+      <div class="fullwidth">
+        
+      
+        
+        <img
+          style="width:200px;height:200px;"
+          
+          src="https://cdn.glitch.com/af1c7ec7-21a7-4461-b294-2a8bb52251e6%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.12.39.png?v=1631654079727"
+        />
+        <img 
+            style="width:200px;height:200px;"
+            src=https://cdn.glitch.com/af1c7ec7-21a7-4461-b294-2a8bb52251e6%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.30.24.png?v=1631655050485/>
+        
+        <img
+          style="width:200px;height:200px;"
+          src=https://cdn.glitch.com/af1c7ec7-21a7-4461-b294-2a8bb52251e6%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-14%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%205.30.33.png?v=1631655056790
+             <p> First trial-failed :(</p>
+      
+      
+        </div>
+      <!-- 4. reflection -->
+
+      <p></p>
+
+      <!-- 5. reflection -->
+      <h1></h1>
+
+      <p></p>
+    </div>
+  </body>
+</html>
