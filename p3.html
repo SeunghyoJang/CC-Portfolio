@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Seunghyo Jang | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Seunghyo Jang</h1>
+      <ul>
+        <li>Project <a href="p1.html">Lost & Found</a></li>
+        <li>Project <a href="p2.html">Face Generator</a></li>
+        <li>Project <a href="p3.html">Experimental Clock</a></li>
+        <li>Project <a href="p4.html">Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">Optical Illusion</a></li>
+        <li>Project <a href="p6.html">Data portrait</a></li>
+        <li>Project <a href="p7.html">Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">Experimental Camera</a></li>
+        <li>Project <a href="p9.html">Consentful Interface</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project#3 Experimental Clock
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+       <iframe 
+               width="600px"
+          height="600px"
+               src="https://preview.p5js.org/Seunghyo/embed/e8rbGKFOi"></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        What I wanted to express through an experimental clock is the psychological 
+        pressure on me over time. I feel a lot of pressure about homework. 
+        It is often delayed due to the burden of doing well and the psychological pressure
+        of the pressure. However, as time goes by, the burden on me increases. 
+        Seconds accumulate to become minutes, and minutes accumulate to become an hour.
+        As time goes by, the color of my face turns redder is an expression of 
+        my psychological burden.
+
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection & Process
+      </h1>
+
+      <p>
+What I feel every week while coding as a beginner is that it is difficult to execute
+ as it was planned and sketched. The result always appears different from what I 
+sketched before and there is always a variable errors in the process. My first plan
+        was to divide the canvas into three parts, seconds, minutes, and time. 
+        The faces were gradually piling up in each section. After 60 seconds pass, 
+        1 face comes down from minute section, and when 60 minutes were piled up, 
+        1 face from hour section has to came down. Different proportions of face 
+        sizes were applied to each, causing the face to come down in the order of 
+        the hour, minutes and seconds. However, the size of the circle suitable for 
+        each section could not be applied, so first, all the same face sizes were 
+        applied to all seconds, minutes, and time. (With the addition of milliseconds,
+        the sections are divided into quarters.) Instead of stacking 60 seconds and 
+        then 1 minute coming down, each section was filled with 100 circles with x:5, 
+        y:20. The method of filling the color is now.get Milliseconds(), now.get 
+        Seconds(), now.getMinutes(), and now.get Hours(), which are applied by coloring
+        the face based on the current time. The change in face color as the unit of time 
+        increases was applied to each section. I want to figure it a little more about the
+        how to apply different facial expressions and the change in the size of the circle
+        for each time unit.
+
+
+      <div class="fullwidth">
+        
+      
+        
+        <img
+          style="width:270px;height:200px;"
+          
+          src=https://cdn.glitch.com/af1c7ec7-21a7-4461-b294-2a8bb52251e6%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.04.35.png?v=1632407473138
+        />
+        
+        
+        <img
+          style="width:200px;height:200px;"
+          src=https://cdn.glitch.com/af1c7ec7-21a7-4461-b294-2a8bb52251e6%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-09-23%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%209.13.45.png?v=1632407560561
+             <p> (First idea sketch)</p>
+      
+      
+        </div>
+      <!-- 4. reflection -->
+
+      <p></p>
+
+      <!-- 5. reflection -->
+      <h1></h1>
+
+      <p></p>
+    </div>
+  </body>
+</html>
